@@ -1,0 +1,218 @@
+body {   /*Color de body */
+  background-color: #0079BF;
+  font-family: 'Pontano Sans', sans-serif;
+  margin: 0px;
+}
+
+header { /*estilo de header */
+  background-color: #0067A3;
+  height: 50px;
+  width: 100%;
+}
+
+form { /*formulario ingresa texto*/
+  background-color: #E2E4E6;
+	border-radius: 3px;
+  height: 115px;
+  margin-top: 50px;
+  margin-left: 40px;
+  overflow: hidden;
+  padding: 10px;
+  transition: .5s;
+  width: 300px;
+}
+
+textarea {  /*etiqueta caja de texto*/
+  background-color: #fff;
+	border-radius: 3px;
+	border: .5px solid #c5c5c7;
+	margin-bottom: 10px;
+  padding: 10px;
+  width: 70%;
+}
+
+textarea:focus {  /*Resaltador*/
+	outline: none;
+}
+
+button[type=submit] {
+  background-color: #5aac44;
+	border: none;
+	border-radius: 5px;
+  color: #fff;
+	padding: 10px;
+  margin-left: 15px;
+	transition: .25s;
+	float: left;
+}
+
+button[type=submit]:focus {
+	outline: none;
+}
+
+button[type=submit]:hover {
+	background-color: #248232;
+}
+
+img{
+  margin-left: 300px;
+  margin-top: 3px;
+
+}
+
+/* Estilos menu info */
+
+#btn_add {
+  margin-top: 20px;
+}
+
+#btn_icon_three{  /*estilo icono circulo header */
+  background-color: #CDD2D4;
+  border-radius: 50%;
+  border: none;
+  color: #000;
+  font-size: 10px;
+  height: 35px;
+  padding: 5px;
+  width: 35px;
+}
+
+#glass { /*estilo input header lupa */
+  background-color: #4C94BE;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  margin: 3px 3px;
+}
+
+#icon_mostrar { /*estilo mostrar */
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 800px;
+  margin: 20px;
+
+}
+
+#icon_privado { /*estilo icono privado */
+  color: #fff;
+  display: inline-block;
+  float: left;
+  font-size: 15px;
+  margin: 20px;
+  text-decoration: none;
+}
+#icon_star { /*estilo icono estrella */
+  color: #fff;
+  display: inline-block;
+  float: left;
+  margin: 20px;
+  size: 10px;
+}
+
+
+#position_4 { /*posicion iconos header*/
+  float: right;
+  margin: 10px;
+}
+
+#texto_uno {  /*estilo tablero*/
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  float: left;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px;
+}
+/* Estilos contenedor de listas */
+#lists-container {
+  margin: -10px 25px;
+  float: left;
+  margin-right: 50px;
+}
+
+#add-list {
+  background-color: #0067a3;
+  border-radius: 3px;
+  color: #84b7d5;
+  float: left;
+  margin: 20px 15px;
+  padding: 10px;
+  width: 270px;
+  overflow: auto;
+}
+
+#add-list:hover {
+  background-color: #004B77;
+}
+
+#list-form {
+  margin: 10px 25px;
+}
+
+
+
+.hidden {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+/* header */
+.btn-icon {  /*icono header */
+  background-color: #4C94BE;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 10px;
+  padding: 4px;
+  text-decoration: none;
+}
+.btn-icon-two { /*iconos header */
+  background-color: #4C94BE;
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px;
+}
+
+.text {  /*estilo input del header */
+  background-color: #4C94BE;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 200px;
+}
+
+/* Estilos nueva lista */
+.new-list {
+  background-color: #e2e4e6;
+  border-radius: 3px;
+  float: left;
+	margin: 20px 15px;
+  width: 300px;
+}
+
+.list-title {
+	padding: 10px;
+	color: #333333;
+	font-weight: 700;
+}
+
+.add-ticket {
+	padding: 10px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+  
+.new-ticket {
+	padding: 10px;
+	background-color: #f5f5f5;
+	margin: 0 auto 5px;
+	border-radius: 3px;
+	width: 250px;
+}
